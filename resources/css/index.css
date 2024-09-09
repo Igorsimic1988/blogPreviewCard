@@ -1,85 +1,88 @@
 * {
-    font-family: Figtree;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: Figtree;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .background {
-    background-color: #F4D04E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    min-height: 100vh;
-
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
 }
 
-.mainBody {
-    background-color: white;
-    max-width: 384px;
-    width: 100%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 24px;
-
-}
-
-.banner {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.section {
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.Learning {
-    font-size: 1rem;
-    font-weight: 900;
+.desription {
+    font-size: 14px;
     line-height: 150%;
-    background-color: #F4D04E;
-    padding: 0.28rem 0.85rem 0.28rem 0.85rem;
-    align-self: flex-start;
-    width: auto;
-    border-radius: 4px;
-    color: #111111;
-}
-
-
-.MainText {
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 150%;
-    color: #F4D04E;
-}
-
-.normalText {
-    font-size: 16px;
-    line-height: 150%;
-    color: #6B6B6B;
     font-weight: 500;
 }
 
+.mainBody {
+  background-color: white;
+  max-width: 384px;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0.571rem 0.571rem 0 black;
+}
+
+.banner {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Learning {
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 150%;
+  background-color: #f4d04e;
+  padding: 0.28rem 0.85rem 0.28rem 0.85rem;
+  align-self: flex-start;
+  width: auto;
+  border-radius: 4px;
+  color: #111111;
+}
+
+.MainText {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+  color: #f4d04e;
+}
+
+.normalText {
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b6b6b;
+  font-weight: 500;
+}
+
 .footer {
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
 }
 
 .profile {
-    width: 32px;
-    height: 32px;
-
+  width: 32px;
+  height: 32px;
 }
 
 .nameGreg {
-    margin-left: 12px;
-    font-size: 14px;
-    font-weight: 900;
-    color: #111111;
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 900;
+  color: #111111;
 }
